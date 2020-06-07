@@ -1,1 +1,1 @@
-web: gunicorn vsearch4web:app
+web: gunicorn vsearch4web:app --log-file=-
